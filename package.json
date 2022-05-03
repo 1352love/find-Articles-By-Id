@@ -1,0 +1,34 @@
+{
+  "name": "findArticlesById",
+  "version": "1.0.0",
+  "description": "通过yaml中的id字段，查找obsidian中的文章，并调用指定quicker动作",
+  "main": "main.js",
+  "scripts": {
+      "dev": "rollup --config rollup.config.js -w",
+      "build": "rollup --config rollup.config.js",
+      "release": "standard-version"
+  },
+  "keywords": [],
+  "standard-version": {
+      "t": ""
+  },
+  "author": "Vinzent",
+  "license": "MIT",
+  "devDependencies": {
+      "@rollup/plugin-commonjs": "^15.1.0",
+      "@rollup/plugin-node-resolve": "^9.0.0",
+      "@rollup/plugin-typescript": "^6.0.0",
+      "@types/node": "^17.0.25",
+      "@types/uuid": "^8.3.1",
+      "obsidian": "https://github.com/obsidianmd/obsidian-api/tarball/master",
+      "rollup": "^2.32.1",
+      "standard-version": "^9.0.0",
+      "tslib": "^2.0.3",
+      "typescript": "4.3.5"
+  },
+  "dependencies": {
+      "obsidian-community-lib": "1.4.2",
+      "obsidian-daily-notes-interface": "^0.9.0",
+      "uuid": "^8.3.2"
+  }
+}

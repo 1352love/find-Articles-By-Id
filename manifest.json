@@ -1,0 +1,8 @@
+{
+  "id": "find-Articles-By-Id",
+  "name": "findArticlesById",
+  "version": "1.0.0",
+  "description": "通过yaml中的id字段，查找obsidian中的文章，并调用指定quicker动作",
+  "author": "KeWang 借鉴 Multi-line Formatting这个插件",
+  "isDesktopOnly": false
+}
