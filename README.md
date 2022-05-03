@@ -20,3 +20,5 @@ The repo contains the latest plugin API (obsidian.d.ts) in Typescript Definition
 ### API Documentation
 
 See https://github.com/obsidianmd/obsidian-api
+
+Éú³É
